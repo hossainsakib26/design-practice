@@ -67,3 +67,18 @@
     width: 60%;
     justify-content: right;
 }
+
+.desk-menu {
+    width: 65%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.desk-menu > a:hover {
+    transform: translate(0, 10%);
+    text-decoration: underline;
+    color: var(--color-primary);
+}

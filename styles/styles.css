@@ -41,3 +41,11 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--color-secondary-shadow);
+    transition: 0.2s;
+}
+
