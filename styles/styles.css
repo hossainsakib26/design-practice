@@ -13,12 +13,15 @@
 
     --margin-dafult-x: 20px;
     --margin-dafult-y: 10px;
-    --margin-dafult-x-half: 10px;
-    --margin-dafult-y-half: 5px;
+    --margin-x-half: 10px;
+    --margin-y-half: 5px;
     --padding-dafult-x: 20px;
     --padding-dafult-y: 10px;
-    --padding-dafult-x-half: 10px;
-    --padding-dafult-y-half: 5px;
+    --padding-x-half: 10px;
+    --padding-y-half: 5px;
+
+    --base-padding-x: 15%;
+    --base-padding-y: 2%;
 
 }
 
@@ -35,6 +38,7 @@ body {
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
 
+    /*overflow: hidden;*/
     -ms-overflow-style: none;
 }
 
@@ -42,10 +46,14 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-a {
-    text-decoration: none;
-    font-size: 1rem;
-    color: var(--color-secondary-shadow);
-    transition: 0.2s;
-}
 
+@media screen and (min-width: 1366px) {
+
+    body > header, body > section, body > footer {
+        /*margin: 20px;*/
+        padding: var(--base-padding-y) var(--base-padding-x);
+        /*background: #114986;*/
+
+    }
+
+}
