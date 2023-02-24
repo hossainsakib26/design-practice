@@ -1,0 +1,40 @@
+button {
+    margin: 0;
+    padding: 0;
+
+}
+
+.btn-text{
+    margin: 0.25rem 0.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-save {
+    background: green;
+    color: white;
+    transition: 0.5s;
+    border: solid 0.1rem green;
+}
+.btn-save:hover {
+    background: white;
+    color: green;
+}
+
+.btn-icon {
+    margin: 0.25rem 0.5rem;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.1rem;
+    border: none;
+    cursor: pointer;
+    background: darkslategray;
+}
+
+.btn-icon > i {
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+}

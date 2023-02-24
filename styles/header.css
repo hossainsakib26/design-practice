@@ -1,10 +1,7 @@
-@import url(../styles/component-design/button.css);
-
 header {
-
     background: var(--color-secondary);
-    height: 100vh;
-
+    height: 50rem;
+    border-radius: 0 0 15% 0;
 }
 
 #menu {
@@ -23,7 +20,6 @@ header {
     align-items: center;
 
     width: 30rem;
-
 }
 
 #menu > .right {
@@ -35,7 +31,6 @@ header {
     width: 30rem;
     padding: 0.5rem;
 }
-
 
 .left > .logo{
     font-size: 1.1rem;
