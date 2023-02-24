@@ -47,12 +47,24 @@ body::-webkit-scrollbar {
 }
 
 
+body > header > section {
+    padding: 0 var(--padding-x-half);
+}
+
+body > section, body > footer {
+    padding: var(--padding-y-half) var(--padding-x-half);
+
+}
+
+
 @media screen and (min-width: 1366px) {
 
-    body > header, body > section, body > footer {
-        /*margin: 20px;*/
+    body > header > section {
+        padding: 0 var(--base-padding-x);
+    }
+
+    body > section, body > footer {
         padding: var(--base-padding-y) var(--base-padding-x);
-        /*background: #114986;*/
 
     }
 
